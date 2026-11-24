@@ -23,10 +23,14 @@ cd backend && npm install
 # In backend/ directory:
 PORT=5000
 NODE_ENV=development
-MONGODB_URI= # Mongodb connect
+MONGODB_URI=mongodb+srv://navinrajk06_db_user:Navinrajk06@cluster0.t84pkal.mongodb.net/
 JWT_SECRET=super_secret_jwt_key_dynamic_form_builder_4y_exp_2026
 JWT_EXPIRES_IN=7d
 CORS_ORIGIN=http://localhost:5173
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX=1000
+
+
 ````
 
 ### Step 3: Run the Application
