@@ -18,7 +18,7 @@ cd backend && npm install
 
 ### Step 2: Configure Environment Variables
 
- `backend/.env.example`
+ `backend/.env`
 ```bash
 # In backend/ directory:
 PORT=5000
